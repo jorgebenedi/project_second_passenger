@@ -1,5 +1,5 @@
 # Second Passenger
-### installation guide
+### Installation Guide
 ```
 apt update && apt install git
 apt install python3
