@@ -2,7 +2,7 @@ from instaloader import  Profile
 import time
 from instaloader import Profile
 import os
-from main_one import main
+from main import main
 from banner import bannerX
 
 RED = "\033[91m"
