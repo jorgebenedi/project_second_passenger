@@ -10,6 +10,8 @@ apt install pip
 pip install -r requirements.txt
 python3 main.py
 ```
+![Captura de pantalla 2024-07-15 2](https://github.com/user-attachments/assets/d17a80d5-1a6a-480a-b69c-f4572bb47b9a)
+
 ### How to use
 
 ```
@@ -23,4 +25,3 @@ que consisten en funciones locales que utilizaremos una vez hayamos extraido los
 Una vez extraido los datos de un perfil, aplicaremos las funciones de data intelligence,
 que sirve para averiguar ultimos seguidos de un perfil, seguidores comunes de un usuario,  y un escaneo en local con el que lograremos averiguar con los usuarios que mas interactua la victima de manera bastante precisa
 ```
-![Captura de pantalla 2024-07-15 2](https://github.com/user-attachments/assets/d17a80d5-1a6a-480a-b69c-f4572bb47b9a)
