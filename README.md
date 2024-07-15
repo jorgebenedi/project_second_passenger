@@ -15,9 +15,14 @@ python3 main.py
 ### How to use
 
 ```
-Buenas a todos he creado una herramienta para extraer los datos de los p usuarios de instagram.
-Aun esta en perido de pruebas, pero se le puede sacar un gran rendimiento funciona bien.
+=========================================================================================================
+Buenas a todos he creado una herramienta para extraer los datos de los usuarios de instagram.
+=========================================================================================================
+-------Aun esta en perido de pruebas, pero se le puede sacar un gran rendimiento-------
+=========================================================================================================
 Si hay alguna persona que sepa como orientarla la herramienta a futuras mejoras que no dude en escribirme!
+=========================================================================================================
+
 Empezaremos explicando como utilizar la aplicacion de manera guiada y simple.
 Nada mas empezar encontraremos un menu que nos dice que si quieremos extraer
 la informacion de los usuarios o queremos aplicar las funciones  de 'Second passenger data intelligence'
