@@ -32,7 +32,7 @@ Nada mas empezar encontraremos un menu que nos dice que si quieremos
                                                                                              |
                                                                                              |
 Una vez extraido los datos de un perfil, aplicaremos las funciones de data intelligence  <---|
-que sirven para averiguar los ultimos seguidos de un usuario, seguidores comunes,
-y posteriormente podremos hacer un escaneo en local con el que lograremos averiguar
+que sirven para averiguar los ultimos seguidos de un usuario y seguidores comunes.
+Posteriormente podremos hacer un escaneo en local con el que lograremos averiguar
 con los otros usuarios que mas interactua la victima de manera bastante precisa.
 ```
