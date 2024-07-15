@@ -81,10 +81,10 @@ def downloadVideos(IG,profile,usernameToScrape):
         try:
             os.system('cls' if os.name == 'nt' else 'clear')
             bannerX()
-            IG.download_profile(usernameToScrape,profile_pic=True)
+            IG.download_profile(usernameToScrape, profile_pic=True)
             directoryDownload()
-            enter = input(f"{RED}Press enter to continue{RESET}")
-            main()
+            input(f"{RED}Press enter to continue{RESET}")
+            main() 
         except Exception as error:
             print(f"{RED}[RISK]{RESET}{GREEN}--Instagram has detected suspicious behavior on your account, review it and accept the message or wait a few days{RESET} \n{RED}--> {error}{RESET}")  
     if option == "2":
