@@ -10,6 +10,7 @@ apt install pip
 pip install -r requirements.txt
 python3 main.py
 ```
+### How to use
 
 ```
 Buenas a todos he creado una herramienta para extraer los datos de los p usuarios de instagram.
