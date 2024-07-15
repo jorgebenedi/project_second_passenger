@@ -5,7 +5,7 @@ RESET = "\033[0m"
 GREEN = "\033[92m"
 
 import os
-from main_one import main
+from main import main
  # Guarda los directorios, la ruta de los directorios como entries y verifica que sea un directorio
 def listDirectoriesUsers(basePath):
     directories = []    
