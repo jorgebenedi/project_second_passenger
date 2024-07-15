@@ -67,11 +67,11 @@ def scrapeFollowers(profile, usernameToScrape,option):
                 elif (500 < followers <= 1000):    
                     timeOuts = 15
                 elif (1000 < followers <= 2000):
-                    timeOuts = 30
+                    timeOuts = 20
                 elif (2000 < followers <= 3000):
-                    timeOuts = 45
+                    timeOuts = 25
                 else:
-                    timeOuts = 50
+                    timeOuts = 30
                     
                 print(f"{RED}[!]{RESET}{GREEN}--Timeouts set to: {timeOuts} seconds{RESET}")
                 for follower in profile.get_followers():
