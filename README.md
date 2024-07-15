@@ -36,4 +36,10 @@ Una vez extraídos los datos de un perfil, aplicaremos las funciones de data int
 que sirven para averiguar las últimas personas que han seguido al usuario y seguidores comunes.
 Posteriormente, podremos hacer un escaneo en local con el que lograremos averiguar
 con que usuarios interactua más la victima de manera bastante precisa.
+
+Recomendaciónes
+----No utilizar la cuenta personal, hay riesgo de cierre permanente de cuentas.
+----Utilizar cuentas con las que hayas interaccionado con otros usuarios, hace que instagram no sospeche tanto, al hacer los escaneos.
+----Utilizar sesiones guardadas, para evitar multiples inicios de sesión, y asi evitaremos el riesgo de banneo.
+----No escanear varios usuarios en un corto periodo de tiempo si intagram te esta avisando, dejar pasar un tiempo entre escaneos(varios días).
 ```
