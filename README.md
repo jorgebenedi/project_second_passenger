@@ -16,23 +16,23 @@ python3 main.py
 
 ```
 =========================================================================================================
-Buenas a todos he creado una herramienta para extraer los datos de los usuarios de instagram.
+      Buenas a todos he creado una herramienta para extraer los datos de los usuarios de instagram.
 =========================================================================================================
--------Aun esta en perido de mejoras, pero se le puede sacar un gran rendimiento-------
+      -------Aun esta en perido de mejoras, pero se le puede sacar un gran rendimiento-------
 =========================================================================================================
 Si hay alguna persona que sepa como orientarla la herramienta a futuras mejoras que no dude en escribirme!
 =========================================================================================================
 
 Empezaremos explicando como utilizar la aplicacion de manera guiada y simple.
 Nada mas empezar encontraremos un menu que nos dice que si quieremos
-[1]extraerla informacion de los usuarios                    [2]Second passenger data intelligence
+[1]Extraerla informacion de los usuarios                    [2]Second passenger data intelligence
       |                                                                                      | 
       |                                                                                      |
       | --> Extraer toda la información posible que luego utilizaremos en la segunda opción. |                                                      
                                                                                              |
                                                                                              |
 Una vez extraido los datos de un perfil, aplicaremos las funciones de data intelligence  <---|
-que sirve para averiguar ultimos seguidos de un perfil, seguidores comunes de un usuario,
+que sirven para averiguar los ultimos seguidos de un usuario, seguidores comunes,
 y posteriormente podremos hacer un escaneo en local con el que lograremos averiguar
-con los usuarios que mas interactua la victima de manera bastante precisa.
+con los otros usuarios que mas interactua la victima de manera bastante precisa.
 ```
