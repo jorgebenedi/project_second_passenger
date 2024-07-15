@@ -15,6 +15,8 @@ Buenas a todos he creado una herramienta para extraer los datos de los p usuario
 Aun esta en perido de pruebas, pero se le puede sacar un gran rendimiento funciona bien.
 Si hay alguna persona que sepa como orientarla la herramienta a futuras mejoras que no dude en escribirme!
 Empezaremos explicando como utilizar la aplicacion de manera guiada y simple.
-Nada mas empezar encontraremos un menu que nos dice que si quieremos extraer la informacion de los usuarios o queremos aplicar las funciones  de 'Second passenger data intelligence'
+Nada mas empezar encontraremos un menu que nos dice que si quieremos extraer
+la informacion de los usuarios o queremos aplicar las funciones  de 'Second passenger data intelligence'
 que consisten en funciones locales que utilizaremos una vez hayamos extraido los datos utilizando la primera opcion de extracción.
-Una vez extraido los datos de un perfil, aplicaremos las funciones de data intelligence, que sirve para averiguar ultimos seguidos de un perfil, seguidores comunes de un usuario,  y un escaneo en local con el que lograremos averiguar con los usuarios que mas interactua la victima de manera bastante precisa```
+Una vez extraido los datos de un perfil, aplicaremos las funciones de data intelligence,
+que sirve para averiguar ultimos seguidos de un perfil, seguidores comunes de un usuario,  y un escaneo en local con el que lograremos averiguar con los usuarios que mas interactua la victima de manera bastante precisa```
