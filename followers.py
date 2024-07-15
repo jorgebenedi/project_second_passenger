@@ -1,7 +1,7 @@
 import os
 import time
 from banner import bannerX
-from main_one import main
+from main import main
 
 RED = "\033[91m"
 RESET = "\033[0m"
