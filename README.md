@@ -39,7 +39,10 @@ con que usuarios interactua más la victima de manera bastante precisa.
 
 Recomendaciónes
 ----No utilizar la cuenta personal, hay riesgo de cierre permanente de cuentas.
-----Utilizar cuentas con las que hayas interaccionado con otros usuarios, hace que instagram no sospeche tanto, al hacer los escaneos.
-----Utilizar sesiones guardadas, para evitar multiples inicios de sesión, y asi evitaremos el riesgo de banneo.
-----No escanear varios usuarios en un corto periodo de tiempo si intagram te esta avisando, dejar pasar un tiempo entre escaneos(varios días).
+----Utilizar cuentas con las que hayas interaccionado con otros usuarios,
+    hace que instagram no sospeche tanto, al hacer los escaneos.
+----Utilizar sesiones guardadas, para evitar multiples inicios de sesión,
+    y asi evitaremos el riesgo de banneo.
+----No escanear varios usuarios en un corto periodo de tiempo si intagram te esta avisando,
+    dejar pasar un tiempo entre escaneos(varios días).
 ```
