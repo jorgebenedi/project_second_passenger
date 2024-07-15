@@ -1,4 +1,5 @@
 # Second Passenger
+![image](https://github.com/user-attachments/assets/dfb1409a-c27d-4555-905f-109f46f92c1f)
 ### Installation Guide
 ```
 apt update && apt install git
@@ -9,7 +10,7 @@ apt install pip
 pip install -r requirements.txt
 python3 main.py
 ```
-![image](https://github.com/user-attachments/assets/dfb1409a-c27d-4555-905f-109f46f92c1f)
+
 ```
 Buenas a todos he creado una herramienta para extraer los datos de los p usuarios de instagram.
 Aun esta en perido de pruebas, pero se le puede sacar un gran rendimiento funciona bien.
