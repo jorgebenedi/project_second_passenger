@@ -2,6 +2,7 @@ import instaloader
 import os
 from banner import bannerX
 import sys
+from instaloader.exceptions import  ConnectionException, BadResponseException
 
 RED = "\033[91m"
 RESET = "\033[0m"
@@ -52,14 +53,8 @@ def logicalCredentials():
             IG = instaloader.Instaloader(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/126.0.0.0 Safari/537.36")
             IG.login(username, password)
            
-        except instaloader.exceptions.InvalidCredentialsException:
+        except instaloader.exceptions.BadCredentialsException:
             print("Invalid username or password. Please check your credentials and try again.")
-            return None, None
-        except instaloader.exceptions.ProfileNotExistsException:
-            print(f"Profile '{usernameToScrape}' does not exist.")
-            return None, None
-        except instaloader.exceptions.PrivateProfileUnavailableException:
-            print(f"Profile '{usernameToScrape}' is private and you are not following it.")
             return None, None
         except Exception as e:
             print(f"An unexpected error occurred: {e}")
@@ -83,9 +78,10 @@ def logicalCredentials():
             print(f"Session for {RED}{username}{RESET} saved successfully.")
    
     try:
-        usernameToScrape = input(f"{GREEN}Enter the username you want to scrape: {RESET}")
-    except instaloader.exceptions.ProfileNotExistsException as error:
-        print(f"User not found or not exist {error}")
+        profile = instaloader.Profile.from_username(IG.context,usernameToScrape)
+        return IG, profile, usernameToScrape     
+    except (ConnectionException, BadResponseException, instaloader.exceptions.InstaloaderException) as error:
+        print(f"{RED}[!]{RESET}{GREEN}-->User not found or not exist{RESET} \n {RED}-->{error}{RESET}")
     
     os.system('cls' if os.name == 'nt' else 'clear')
     bannerX()
