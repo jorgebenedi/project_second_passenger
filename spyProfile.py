@@ -1,12 +1,11 @@
 from banner import bannerX
+import os
+from main import main
 
 RED = "\033[91m"
 RESET = "\033[0m"
 GREEN = "\033[92m"
-
-import os
-from main import main
- # Guarda los directorios, la ruta de los directorios como entries y verifica que sea un directorio
+ 
 def listDirectoriesUsers(basePath):
     directories = []    
 
@@ -19,7 +18,7 @@ def listDirectoriesUsers(basePath):
                 directories.append(entry.name)
     return directories
 
-# Lista los directorios de el directorio comentarios
+
 def listFileInDirectory(directory,basePath):
     files = []
     full_path = os.path.join(basePath, directory)
@@ -30,8 +29,7 @@ def listFileInDirectory(directory,basePath):
     return files
 
 
-
-# Lee los ficheros de los directorios de los usuarios, y los añade a una lista vacia    
+    
 def readFollowersFromFile(filePath,basePath):
     followers = []
     try:
@@ -63,13 +61,13 @@ def countUsers(followers):
             countNames[follower] = 1
     return countNames
   
-# calculo de la puntuación del numero de veces que haya comentado una persona el perfil , y su posterior apararición en common followers
+
 def calculatePoints(nameCounts):
     namePoints = {name: count * 5 for name,count in nameCounts.items()}  
     
     return namePoints
 
-# Convertirmos diccionario en una lista de tuplas, seleccionamos el segundo valor(puntuacion) y ordenamos de mayor a menor. Sacamos los tres mejores
+
 def printResults(namePoints,commonFollowers):
     os.system('cls' if os.name == 'nt' else 'clear')
 
