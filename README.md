@@ -34,6 +34,11 @@ Recomendaciónes
     dejar pasar un tiempo entre escaneos(varios días).
 ----Cambiar cuentas con las que vas a hacer escaneos en credentials.txt
 ```
+Technologies
+```
+python3
+instaloader
+```
 ### Installation Guide
 ```
 apt update && apt install git
