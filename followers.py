@@ -55,8 +55,7 @@ def scrapeFollowers(profile, usernameToScrape,option):
     
     followers = profile.followers
     following = profile.followees
-    # si los seguidores son 1500 , 1000 es menor que 1500(verdadero) y 1500 es menor que 2000 (verdadero) 
-    # tiempos segun la cantidad de seguidores a escanear
+    
 
     print(f"{RED}[+]--Starting extraction{RESET}")
     try:
@@ -85,7 +84,7 @@ def scrapeFollowers(profile, usernameToScrape,option):
                             print(f"{RED}[WAITING]--Sleeping for {timeOuts} second{RESET}")
                             time.sleep(timeOuts)
                             count =0
-                with open(path, "a+") as file: #Abrimos el archivo de salida para escribir los nombres de los seguidores
+                with open(path, "a+") as file: 
                     for username in followersList:
                         file.write(username + "\n")           
                 
@@ -93,7 +92,7 @@ def scrapeFollowers(profile, usernameToScrape,option):
                 
         elif option == "2":
                 
-            # tiempos segun la cantidad de seguidores a escanear
+            
             if (0 < following <= 500):    
                 timeOuts = 10
             elif (500 < following <= 1000):    
@@ -105,15 +104,15 @@ def scrapeFollowers(profile, usernameToScrape,option):
             else:
                 timeOuts = 30
                     
-            with open(path, "a+") as file: #Abrimos el archivo de salida para escribir los nombres de los seguidores
+            with open(path, "a+") as file: 
                 for follower in profile.get_followees():
-                    username = follower.username # guarda los nombre de los seguidores iterados
-                    if username not in followersList: # Evita recoger usuarios repetidos
+                    username = follower.username 
+                    if username not in followersList: 
                         followersList.append(username)
                         file.write(username + "\n")
                         count += 1
                         followersExtract += 1  
-                        if count % 50 == 0: # cada 5 publicaciones descargadas pausa de 5 segundos
+                        if count % 50 == 0: 
                             print(f"{RED}[+]{RESET}{GREEN}--followers extracted: {followersExtract}{RESET}")
                             print(f"{RED}[WAITING]--Sleeping for {timeOuts} second{RESET}")
                             time.sleep(timeOuts)
@@ -131,21 +130,21 @@ def scrapeFollowers(profile, usernameToScrape,option):
         print(f"{RED}[RISK]{RESET}{GREEN}--Followers extract 0 instagram has detected suspicious behavior on your account, review it and accept the message or wait a few days{RESET}")              
 
     
-    enter = input(f"{RED}Enter for continue{RESET}")  # Pausa para permitir que el usuario continúe
-    main()  # Llama a la función principal para continuar
+    enter = input(f"{RED}Enter for continue{RESET}")  
+    main()  
         
    
 
 def listDirectoriesUsers():
     currentPath = f'./Followers/' 
-    directories = []    # <-- guarda los directorios
+    directories = []    
 
     if not os.path.exists(currentPath):
         os.makedirs(currentPath)
 
-    with os.scandir(currentPath) as entries: # <--- guarda la ruta de los directorios como entries
+    with os.scandir(currentPath) as entries: 
         for entry in entries:
-            if entry.is_dir(): # Verifica que sea un directorio
+            if entry.is_dir(): 
                 directories.append(entry.name)
     return directories
 
@@ -173,9 +172,9 @@ def readFollowersFromFile(filePath):
 
 def listFilesUsers(directory):
     files = [] 
-    with os.scandir(directory) as entries: # <--- guarda la ruta de los directorios como entries
+    with os.scandir(directory) as entries: 
         for entry in entries:
-            if entry.is_file: # Verifica que sea un directorio
+            if entry.is_file: 
                 files.append(entry.name)
     return files
 
@@ -213,7 +212,7 @@ def compareFollowers():
             print(f"[{countFiles}] {selectedDirectory}\{file}")
             countFiles +=1
     
-    # Este codigo sirve para la opcion 2 "compare followers"   
+      
     if option == "1":
         file1 = input(f"{RESET}{RED}Enter the followers: {RESET}")
         file1 = int(file1) - 1
@@ -222,8 +221,7 @@ def compareFollowers():
         file2 = input(f"{RESET}{RED}Enter the followers: {RESET}")
         file2 = int(file2) - 1
         
-    
-    # Este codigo sirve para la opcion 2 "last followers"        
+            
     if option == "2":
         file1 = input(f"{RED}Enter the first date: {RESET}")
         file1 = int(file1) - 1
@@ -256,14 +254,14 @@ def compareFollowers():
         bannerX()
         commonFollowers = followers1 & followers2
         followersNotFollowYou = (followers1 - followers2)
-        followersNotFollowThem = (followers2 - followers1)   # Seguidores que están en el primer conjunto pero no en el segundo.
-        if commonFollowers:                            # seguidores que están en el segundo conjunto pero no en el primero.
+        followersNotFollowThem = (followers2 - followers1)   
+        if commonFollowers:                            
             countCommons = 1
             print(f"\n\t\t\t\t{RED}--------Common Followers---------{RESET}")
             for follower in commonFollowers:
                 print(f"\t\t\t\t{RED}[{countCommons}]{RESET}{GREEN}--{follower}{RESET}")
                 path = DirectoryCommonFollowers(selectedDirectory)
-                with open(path, "a+") as file: #Abrimos el archivo de salida para escribir los nombres de los seguidores
+                with open(path, "a+") as file: 
                     file.write(follower + "\n")
                 countCommons+=1
         
