@@ -1,4 +1,5 @@
 # Second Passenger
+![image](https://github.com/user-attachments/assets/dfb1409a-c27d-4555-905f-109f46f92c1f)
 ```
 =========================================================================================================
       Buenas a todos he creado una herramienta para extraer los datos de los usuarios de instagram.
@@ -32,7 +33,9 @@ Recomendaciónes
     dejar pasar un tiempo entre escaneos(varios días).
 ----Cambiar cuentas con las que vas a hacer escaneos en credentials.txt
 ```
-![image](https://github.com/user-attachments/assets/dfb1409a-c27d-4555-905f-109f46f92c1f)
+
+
+'''
 ### Installation Guide
 ```
 apt update && apt install git
