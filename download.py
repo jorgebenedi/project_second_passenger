@@ -91,13 +91,3 @@ def downloadVideos(IG,profile,usernameToScrape):
     if option == "3":
         main() 
         return
-        
-                    
-                        
-                        
-
-
-    
-  
-
-   
