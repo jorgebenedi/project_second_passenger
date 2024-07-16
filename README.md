@@ -34,7 +34,7 @@ Recomendaciónes
     dejar pasar un tiempo entre escaneos(varios días).
 ----Cambiar cuentas con las que vas a hacer escaneos en credentials.txt
 ```
-Technologies
+### Technologies
 ```
 python3
 instaloader
