@@ -75,19 +75,16 @@ def logicalCredentials():
             session = createSessionDirectory(username)
             IG.save_session_to_file(f"{session}/{username}_session")
             print(f"Session for {RED}{username}{RESET} saved successfully.")
-   
+
+
+    os.system('cls' if os.name == 'nt' else 'clear')
+    bannerX()
+    print(f"\t\t\t{RED}Second Passenger objective -->{RESET} {usernameToScrape}" )
+    
     try:
         profile = instaloader.Profile.from_username(IG.context,usernameToScrape)
         return IG, profile, usernameToScrape     
     except (ConnectionException, BadResponseException, instaloader.exceptions.InstaloaderException) as error:
         print(f"{RED}[!]{RESET}{GREEN}-->User not found or not exist{RESET} \n {RED}-->{error}{RESET}")
     
-    os.system('cls' if os.name == 'nt' else 'clear')
-    bannerX()
-    print(f"\t\t\t{RED}Second Passenger objective -->{RESET} {usernameToScrape}" )
     
-    profile = instaloader.Profile.from_username(IG.context,usernameToScrape)
-    
-    return IG, profile, usernameToScrape
-
-   
