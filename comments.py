@@ -37,7 +37,7 @@ def comments(profile,usernameToScrape):
                     file.write(comments.owner.username + "\n")
                     file.write(comments.text + "\n")
                     countComments += 1
-                    if countComments % 5 == 0: # cada 5 publicaciones descargadas pausa de 5 segundos
+                    if countComments % 5 == 0: 
                         print(f"{RED}[+]{RESET}{GREEN}--Extracted comments: {countComments}{RESET}")
                         print(f"{RED}Sleeping comments for 10 second{RESET}")
                         time.sleep(10)
