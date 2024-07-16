@@ -1,7 +1,7 @@
 # Second Passenger
 ![image](https://github.com/user-attachments/assets/dfb1409a-c27d-4555-905f-109f46f92c1f)
 ### Description
-'''
+
 =========================================================================================================
       Buenas a todos he creado una herramienta para extraer los datos de los usuarios de instagram.
 =========================================================================================================
@@ -33,9 +33,9 @@ Recomendaciónes
 ----No escanear varios usuarios en un corto periodo de tiempo si intagram te esta avisando,
     dejar pasar un tiempo entre escaneos(varios días).
 ----Cambiar cuentas con las que vas a hacer escaneos en credentials.txt
-'''
+
 ### Installation Guide
-'''
+```
 apt update && apt install git
 apt install python3
 git clone https://github.com/jorgebenedi/project_second_passenger.git
