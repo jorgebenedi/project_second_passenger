@@ -2,13 +2,9 @@ import os
 from credentials import logicalCredentials
 from banner import bannerX
 
-
-
 RED = "\033[91m"
 RESET = "\033[0m"
 GREEN = "\033[92m"
-
-
 
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -55,7 +51,6 @@ def main():
     elif optionMain == "3":
             exit
             
-
-    
+  
 if __name__ == "__main__":
     main()
