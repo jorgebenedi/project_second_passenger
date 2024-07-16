@@ -53,7 +53,7 @@ def logicalCredentials():
             IG = instaloader.Instaloader(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/126.0.0.0 Safari/537.36")
             IG.login(username, password)
         except instaloader.exceptions.BadCredentialsException:
-            print("{RED}[!]{RESET}{GREEN}--Invalid username or password. Please check your credentials and try again.{RESET}")
+            print(f"{RED}[!]{RESET}{GREEN}--Invalid username or password. Please check your credentials and try again.{RESET}")
             return None, None
         except Exception as e:
             print(f"An unexpected error occurred: {e}")
