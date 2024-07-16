@@ -45,5 +45,5 @@ Recomendaciónes
     y asi evitaremos el riesgo de banneo.
 ----No escanear varios usuarios en un corto periodo de tiempo si intagram te esta avisando,
     dejar pasar un tiempo entre escaneos(varios días).
-----Modificar cuentas con las que vas a hacer escaneos en credentials.txt
+----Cambiar cuentas con las que vas a hacer escaneos en credentials.txt
 ```
