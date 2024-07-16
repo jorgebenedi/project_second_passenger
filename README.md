@@ -33,9 +33,6 @@ Recomendaciónes
 ----No escanear varios usuarios en un corto periodo de tiempo si intagram te esta avisando,
     dejar pasar un tiempo entre escaneos(varios días).
 ----Cambiar cuentas con las que vas a hacer escaneos en credentials.txt
-
-
-
 '''
 ### Installation Guide
 ```
