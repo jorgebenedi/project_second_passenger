@@ -6,8 +6,6 @@ import sys
 RED = "\033[91m"
 RESET = "\033[0m"
 GREEN = "\033[92m"
-RESET = "\033[0m"
-BRIGHT_GREEN = "\033[92m"
 
 def createSessionDirectory(username):
     directoryMain = "sessions"
@@ -40,7 +38,7 @@ def prompCredentials():
 def logicalCredentials():
     credentials = loadCredentials() 
      
-    if credentials is None: # Si no hay fichero con las credenciales introducidas las mete manualmente, si no crea un fichero con las credenciales.
+    if credentials is None:
         username,password = prompCredentials()
     else:
         username, password = credentials
@@ -53,7 +51,7 @@ def logicalCredentials():
         try:
             IG = instaloader.Instaloader(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/126.0.0.0 Safari/537.36")
             IG.login(username, password)
-            # Iniciar sesión en Instagram
+           
         except instaloader.exceptions.InvalidCredentialsException:
             print("Invalid username or password. Please check your credentials and try again.")
             return None, None
