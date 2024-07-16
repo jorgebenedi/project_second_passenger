@@ -1,19 +1,4 @@
 # Second Passenger
-![image](https://github.com/user-attachments/assets/dfb1409a-c27d-4555-905f-109f46f92c1f)
-### Installation Guide
-```
-apt update && apt install git
-apt install python3
-git clone https://github.com/jorgebenedi/project_second_passenger.git
-cd project_second_passenger
-apt install pip
-pip install -r requirements.txt
-python3 main.py
-```
-![Captura de pantalla 2024-07-15 2](https://github.com/user-attachments/assets/d17a80d5-1a6a-480a-b69c-f4572bb47b9a)
-
-### How to use
-
 ```
 =========================================================================================================
       Buenas a todos he creado una herramienta para extraer los datos de los usuarios de instagram.
@@ -47,3 +32,19 @@ Recomendaciónes
     dejar pasar un tiempo entre escaneos(varios días).
 ----Cambiar cuentas con las que vas a hacer escaneos en credentials.txt
 ```
+![image](https://github.com/user-attachments/assets/dfb1409a-c27d-4555-905f-109f46f92c1f)
+### Installation Guide
+```
+apt update && apt install git
+apt install python3
+git clone https://github.com/jorgebenedi/project_second_passenger.git
+cd project_second_passenger
+apt install pip
+pip install -r requirements.txt
+python3 main.py
+```
+![Captura de pantalla 2024-07-15 2](https://github.com/user-attachments/assets/d17a80d5-1a6a-480a-b69c-f4572bb47b9a)
+
+### How to use
+
+
