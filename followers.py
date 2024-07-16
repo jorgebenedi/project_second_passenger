@@ -74,12 +74,12 @@ def scrapeFollowers(profile, usernameToScrape,option):
                     
                 print(f"{RED}[!]{RESET}{GREEN}--Timeouts set to: {timeOuts} seconds{RESET}")
                 for follower in profile.get_followers():
-                    username = follower.username # guarda los nombre de los seguidores iterados
-                    if username not in followersList: # Evita recoger usuarios repetidos
+                    username = follower.username 
+                    if username not in followersList: 
                         followersList.append(username)
                         count += 1
                         followersExtract += 1  
-                        if count % 50 == 0: # cada 5 publicaciones descargadas pausa de 5 segundos
+                        if count % 50 == 0: 
                             print(f"{RED}[+]{RESET}{GREEN}--followers extracted: {followersExtract}{RESET}")
                             print(f"{RED}[WAITING]--Sleeping for {timeOuts} second{RESET}")
                             time.sleep(timeOuts)
