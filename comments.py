@@ -29,7 +29,7 @@ def comments(profile,usernameToScrape):
     path = createDirectory(usernameToScrape)
     countComments =0
     try:
-      with open(path, "a+",encoding="utf-8") as file: #Abrimos el archivo de salida para escribir los nombres de los seguidores
+      with open(path, "a+",encoding="utf-8") as file: 
         for i,post in enumerate(profile.get_posts(),start=1):
             postComments = post.get_comments()
             print(f"{RED}[i]{RESET}{GREEN}--Post[{i}]{RESET}")
@@ -44,6 +44,6 @@ def comments(profile,usernameToScrape):
     except Exception as error:
             print(f"{RED}[RISK]{RESET}{GREEN}--Instagram has detected suspicious behavior on your account, review it and accept the message or wait a few days{RESET} \n{RED}--> {error}{RESET}")
             
-    enter = input(f"{RED}Enter for continue{RESET}")  # Pausa para permitir que el usuario continúe
-    main()  # Llama a la función principal para continuar            
+    enter = input(f"{RED}Enter for continue{RESET}")  
+    main()             
 
