@@ -75,8 +75,8 @@ def logicalCredentials():
             session = createSessionDirectory(username)
             IG.save_session_to_file(f"{session}/{username}_session")
             print(f"Session for {RED}{username}{RESET} saved successfully.")
-
-
+            
+    usernameToScrape = input(f"{GREEN}Enter the username you want to scrape: {RESET}")
     os.system('cls' if os.name == 'nt' else 'clear')
     bannerX()
     print(f"\t\t\t{RED}Second Passenger objective -->{RESET} {usernameToScrape}" )
