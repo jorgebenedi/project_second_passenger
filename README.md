@@ -5,13 +5,13 @@
 =========================================================================================================
       Buenas a todos he creado una herramienta para extraer los datos de los usuarios de instagram.
 =========================================================================================================
-      -------Aún esta en perido de mejoras, pero se le puede sacar un gran rendimiento-------
+      -------Aún esta en periodo de pruebas, pero se le puede sacar un gran rendimiento-------
 =========================================================================================================
 Si hay alguna persona que sepa como orientar la herramienta a futuras mejoras que no dude en escribirme!
 =========================================================================================================
 
 Empezaremos explicando como utilizar la herramienta de manera guiada y simple.
-Nada mas empezar encontraremos un menu que nos dice que si quieremos:
+Nada mas empezar encontraremos un menu que nos dice que si queremos:
 
 [1]Extraer información de los usuarios                        [2]Second passenger data intelligence
       |                                                                                      | 
