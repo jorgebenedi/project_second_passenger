@@ -3,36 +3,33 @@
 ### Description
 ```
 =========================================================================================================
-      Buenas a todos he creado una herramienta para extraer los datos de los usuarios de instagram.
+            Hello everyone, I’ve created a tool to extract user data from Instagram.
 =========================================================================================================
-      -------Aún esta en periodo de pruebas, pero se le puede sacar un gran rendimiento-------
-=========================================================================================================
-Si hay alguna persona que sepa como orientar la herramienta a futuras mejoras que no dude en escribirme!
+If anyone knows how to guide the tool towards future improvements, feel free to reach out to me!
 =========================================================================================================
 
-Empezaremos explicando como utilizar la herramienta de manera guiada y simple.
-Nada mas empezar encontraremos un menu que nos dice que si queremos:
+We will begin by explaining how to use the tool in a guided and simple way.
+As soon as you start, you will find a menu that asks if you want to:
 
-[1]Extraer información de los usuarios                        [2]Second passenger data intelligence
+[1]Extract user information                                                   [2]Second passenger data intelligence
       |                                                                                      | 
       |                                                                                      |
-      | --> Extraer toda la información posible que luego utilizaremos en la segunda opción. |                                                      
+      | --> Extract all the possible information that we will later use in the second option.|                                                      
                                                                                              |
                                                                                              |
-Una vez extraídos los datos de un perfil, aplicaremos las funciones de data intelligence <-- |
-que sirven para averiguar las últimas personas que han seguido al usuario y seguidores comunes.
-Posteriormente, podremos hacer un escaneo en local con el que lograremos averiguar
-con que usuarios interactua más la victima de manera bastante precisa.
+Once the data from a profile is extracted, we will apply the data intelligence functions <-- |
+which help identify the most recent people who have followed the user and common followers.
+Subsequently, we can perform a local scan to find out which users the victim interacts with the most, quite accurately.
 
-Recomendaciónes
-----No utilizar la cuenta personal, hay riesgo de cierre permanente de cuentas.
-----Utilizar cuentas con las que hayas interaccionado con otros usuarios,
-    hace que instagram no sospeche tanto, al hacer los escaneos.
-----Utilizar sesiones guardadas, para evitar multiples inicios de sesión,
-    y asi evitaremos el riesgo de banneo.
-----No escanear varios usuarios en un corto periodo de tiempo si intagram te esta avisando,
-    dejar pasar un tiempo entre escaneos(varios días).
-----Cambiar cuentas con las que vas a hacer escaneos en credentials.txt
+Recommendations
+----Do not use your personal account, there is a risk of permanent account closure.
+----Use accounts with which you have interacted with other users,
+this makes Instagram less likely to suspect you during scans.
+----Use saved sessions to avoid multiple logins,
+this will help reduce the risk of being banned.
+----Do not scan multiple users in a short period of time if Instagram is warning you,
+take some time between scans (several days).
+----Change accounts used for scanning in credentials.txt.
 ```
 ### Example of data extraction
 ![Captura de pantalla 2024-07-15 2](https://github.com/user-attachments/assets/d17a80d5-1a6a-480a-b69c-f4572bb47b9a)
